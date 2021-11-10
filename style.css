@@ -1,0 +1,178 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+text-decoration: none;
+color: #e5e7eb;
+font-size: 18px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    list-style-type: none;
+}
+
+button {
+    background-color:#1f6deb;
+    color:#e5e7eb;
+    border-radius: 6px;
+    margin: 12px;
+    padding: 6px 20px;
+    font-weight: 600;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.container0 {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.left.top {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+
+.left {
+    color: #e5e7eb;
+    font-size: 18px;
+    flex-wrap: wrap;
+}
+
+.right {
+    display: flex;
+    flex: 0 0 auto;
+    color: #e5e7eb;
+    background-color:lightgrey;
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    margin-right: 100px;
+}
+
+.button1 {
+    border-color: #f9faf8;
+}
+
+.left0 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex: 1 1 auto;
+    padding: 16px;
+    margin-left: 200px;
+}
+
+.title {
+    display: flex;
+   font-size: 36px;
+   font-weight: 900;
+   color: #1F2937;
+   justify-content: center;
+   align-items: center;
+   margin: 60px;
+}
+
+.plants {
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.planttext {
+    display: flex;
+    width: 200px;
+}
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    background-color:#e5e7eb;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding: 100px 100px 0;
+    margin: 0 100px 0;
+}
+
+.author {
+    display: flex;
+   font-size: 22px;
+   font-weight: bold;
+   color: #1F2937;
+   margin: 10px auto 50px;
+}
+
+.buyme {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1f6deb;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+    margin: 100px;
+    padding: 16px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+
+.now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    background-color:#1F2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-size: 18px;
+}
+
+/* "right" image courtesy of https://bombouche.com/letter-mailings/bb-images-400-x-200px-upload/  */
+/* "plants" images courtesy of The Odin Project's CSS exercises */
+
